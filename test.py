@@ -1,6 +1,4 @@
-
 from core import create_video
-
 
 slides = [
     {
@@ -8,7 +6,7 @@ slides = [
         "text": "Welcome to my video",
         "duration": 5,
         "fontsize": 50,
-        "fontcolor":"#FF5733"
+        "fontcolor": "#FF5733"
     },
     {
         "image": "slide2.jpg",

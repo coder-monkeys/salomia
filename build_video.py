@@ -20,9 +20,6 @@ def build_ffmpeg_command(slides: List[Dict], output_path: Path,
     filter_parts = []
     for i, slide in enumerate(slides):
         inputs.extend(["-loop", "1", "-t", str(slide["duration"]), "-i", slide["image"]])
-        width = int(slide['width'])
-        height = int(slide['height'])
-        print(width, height)
         safe_text = slide['text'].replace("'", r"\'").replace(':', r'\:')
 
         filter_parts.append(
