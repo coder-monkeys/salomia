@@ -2,19 +2,33 @@
     "images": [
         {
           "image": "slide1.jpg",
-          "text": "Welcome to my video",
-          "duration": 5,
-          "fontsize": 50,
-          "fontcolor": "#FF5733"
+          "attributes": {
+            "text": {
+              "content": "Welcome to the video",
+              "x": 100,
+              "y": 200,
+              "fontsize": 50,
+              "fontcolor": "#FF5733"
+            }
+          },
+          "duration": 5
         },
         {
         "image": "slide2.jpg",
-        "text": "Another message here",
-        "duration": 3,
-        "fontsize": 30,
-        "fontcolor": "#FF5733"
+        "attributes":{
+          "text": {
+            "content": "This is the second text",
+            "x": 200,
+            "y": 200,
+            "fontsize": 50,
+            "fontcolor": "#FF5733"
+          }
+        },
+        "duration": 3
         }
       ],
     "videos": "null",
-    "audio": "sample-92.mp3"
+    "audio": "sample-92.mp3",
+    "height": 1350,
+    "width": 1080
 }
