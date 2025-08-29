@@ -1,0 +1,20 @@
+{
+    "images": [
+        {
+          "image": "slide1.jpg",
+          "text": "Welcome to my video",
+          "duration": 5,
+          "fontsize": 50,
+          "fontcolor": "#FF5733"
+        },
+        {
+        "image": "slide2.jpg",
+        "text": "Another message here",
+        "duration": 3,
+        "fontsize": 30,
+        "fontcolor": "#FF5733"
+        }
+      ],
+    "videos": "null",
+    "audio": "sample-92.mp3"
+}
